@@ -18,7 +18,6 @@ Widget::Widget(QWidget *parent)
             [=](){
         ui->progressBar->setValue(ui->horizontalSlider->value());
     });
-
 }
 
 Widget::~Widget()
